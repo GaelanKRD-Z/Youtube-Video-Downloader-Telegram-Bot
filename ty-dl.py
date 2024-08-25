@@ -13,11 +13,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = "YOUR API KEY"
+TOKEN = "6019956632:AAFHRc_PRuD8FFTfDBP4AJefb0zqnabOJt4"
 if not TOKEN:
     raise ValueError("No TELEGRAM_BOT_TOKEN found in environment variables")
 
-bot_username = "your_bot_username"
+bot_username = "youtube_gaelan_bot"
 
 MAX_CHUNK_SIZE = 49 * 1024 * 1024  # Slightly less than 50MB to avoid boundary issues
 
